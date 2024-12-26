@@ -1,0 +1,27 @@
+graph {
+  graph [
+    charset = "UTF-8",
+    dpi = 300,
+    labeljust = "c",
+    fontsize = 10,
+    fontname = "Noto Serif"
+  ];
+  node [
+    fixedsize = true,
+    shape = circle,
+    height = 0.4,
+    width = 0.4,
+    penwidth = 1.0
+  ];
+  edge [
+    penwidth = 1.0
+  ];
+  0 [tooltop="P0" label="P0" ];
+  1 [tooltop="P1" label="P1" ];
+  2 [tooltop="P2" label="P2" ];
+  3 [tooltop="P3" label="P3" ];
+  0 -- 1;
+  0 -- 2;
+  1 -- 2;
+  2 -- 3;
+}
