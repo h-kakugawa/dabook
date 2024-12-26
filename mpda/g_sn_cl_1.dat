@@ -1,0 +1,9 @@
+# nw_sn_cl_1.txt
+# the network for alg_SN_CL_run.py
+4 4
+#
+0 1  
+0 2
+1 2
+2 3
+# end
