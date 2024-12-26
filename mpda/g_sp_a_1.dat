@@ -1,0 +1,12 @@
+# nw_sp_a_1.txt
+# the network for alg_SP_A_run.py
+5 7
+#
+0 1 1
+0 2 3
+0 3 1
+1 2 1
+1 4 1
+2 3 1
+2 4 2
+# end
